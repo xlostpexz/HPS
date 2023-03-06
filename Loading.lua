@@ -3,9 +3,17 @@ game.StarterGui:SetCore("SendNotification", {
               Title = "Winnable Hub", 
               Text = "Homework Printing Simulator Data Settings"
             })
+        
+wait(2)
+        
+game.StarterGui:SetCore("SendNotification", {
+              Icon = "rbxassetid://11634040122";
+              Title = "Winnable Hub", 
+              Text = "Don't Forgot To Play Tutorial First"
+            })
 
-wait(1)
-
+wait(3)
+    
 local args = {
     [1] = {
         ["BadGraphics"] = false,
@@ -99,6 +107,10 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.SaveData:FireServer(unpack(args))
 
 wait(1)
+ 
+game.Players.LocalPlayer:Kick("Support Only The Account Never Play This Game / Winnable Hub")
+ 
+wait(3)
 
 game.Players.LocalPlayer:Kick("Wait For Rejoin To Get New Data / Winnable Hub")
 
