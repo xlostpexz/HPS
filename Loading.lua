@@ -81,7 +81,7 @@ local args = {
         },
         ["FinishedTutorial"] = false,
         ["Godly"] = 3,
-        ["Money"] = 10000   ,
+        ["Money"] = 10000,
         ["Alive"] = 6,
         ["MultiplierTime"] = 1,
         ["Staff"] = 321,
